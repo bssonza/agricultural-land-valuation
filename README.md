@@ -10,7 +10,7 @@ An approach is to do a disconted cashflow analysis (DCF) of the respective inves
 
 ## How does it work
 
-It draws random values for a number of parameters, such anual production, costs, commodity prices, real interest rates, from a user defined distribution and calculates the yearly cash gerated based on the values drawn; summing the cashflows for multiple years (a timeline) and subtracting the oportunity cost (real interest rate) gives the Net Present Value (NPV) of the land. This process is then repeated for thousand of timelines to give a NPV distribution.
+It draws random values for a number of parameters, such anual production, costs, commodity prices, real interest rates, from a user defined distribution and calculates the yearly cash generated based on the values drawn; summing the cashflows for multiple years (a timeline) and subtracting the oportunity cost (real interest rate) gives the Net Present Value (NPV) of the land. This process is then repeated for thousand of timelines to give a NPV distribution.
 
 ## Installation
 1. Clone and download this repo
