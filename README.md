@@ -2,7 +2,7 @@
 Monte Carlo Simulator for Agricultural Land Valuation.
 
 ## Introduction
-Investing is hard. To do it well, one must not acquire an asset by paying more than it is intrinsically worth. But how to evaluate the worth of a given asset?
+Investing is hard. To do it well, one must acquire an asset for the right price, that is, for less than what it is intrinsically worth. But how does one evaluate the worth of a given asset?
 
 An approach is to do a disconted cashflow analysis (DCF) of the respective investment. That is to say, calculate how much cash it will generate in it's lifetime and subtract the opportunity cost of not investing in anything else. 
 
@@ -10,14 +10,12 @@ An approach is to do a disconted cashflow analysis (DCF) of the respective inves
 
 ## How does it work
 
-It draws random values for a number of parameters, such as anual production, costs, commodity prices, real interest rates, from a user defined triangular distribution and calculates the yearly cash generated based on the values drawn; summing the cashflows for multiple years (a timeline) and subtracting the oportunity cost (real interest rate) gives the Net Present Value (NPV) of the land. This process is then repeated for thousand of timelines to give a NPV distribution.
+It draws random values for relevant of parameters, such as anual production, costs, commodity prices, real interest rates, from a user defined triangular distribution and calculates the yearly cash generated based on the values drawn; summing the cashflows for multiple years (a timeline) and subtracting the oportunity cost (real interest rate) gives the Net Present Value (NPV) of the land. This process is then repeated for thousand of timelines to give a NPV distribution.
 
 ## Installation
 1. Clone and download this repo
 2. Extract files to a directory of choice
-3. Run AgriculturalLandValuation.py through your prefered IDE
-
-TBI: Download the executable here.
+3. Run AgriculturalLandValuation.py
 
 ## Usage
 This program comes with a User Interface that allows for quick iteration of possible parameters. An example of such iteration:
