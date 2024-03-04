@@ -2,15 +2,15 @@
 Monte Carlo Simulator for Agricultural Land Valuation.
 
 ## Introduction
-Investing is hard. To do it well, one must acquire an asset for the right price, that is, for less than what it is intrinsically worth. But how does one evaluate the worth of a given asset?
+Investing is a challenging endeavor. To excel in it, one needs to purchase an asset at a price lower than its intrinsic value. However, determining the intrinsic worth of an asset poses a significant question.
 
-An approach is to do a disconted cashflow analysis (DCF) of the respective investment. That is to say, calculate how much cash it will generate in it's lifetime and subtract the opportunity cost of not investing in anything else. 
+One method to assess an asset's value is through Discounted Cash Flow (DCF) analysis. This involves estimating the total cash that the investment will produce over its lifetime and then deducting the opportunity cost associated with forgoing other investments.
 
-**This project aims to help users make better investments in the agricultural sector by estimating how much a piece of land is worth by doing this DFC analysis in thousand of possible cenarios of agricultural production.** 
+This project is designed to assist users in estimating the value of agricultural land through DCF analysis across thousands of potential scenarios.
 
 ## How does it work
 
-It draws random values for relevant of parameters, such as anual production, costs, commodity prices, real interest rates, from a user defined triangular distribution and calculates the yearly cash generated based on the values drawn; summing the cashflows for multiple years (a timeline) and subtracting the oportunity cost (real interest rate) gives the Net Present Value (NPV) of the land. This process is then repeated for thousand of timelines to give a NPV distribution.
+The methodology hinges on randomly selecting values for key parameters, including annual production, costs, commodity prices, and real interest rates, from a triangular distribution defined by the user. By utilizing these randomly drawn values, the yearly cash generated is calculated. The sum of these cash flows across multiple years, adjusted for the opportunity cost represented by the real interest rate, results in the Net Present Value (NPV) of the land. This calculation process is replicated across thousands of different timelines to produce a distribution of NPV estimates, offering a comprehensive view of the potential financial outcomes for the land investment.
 
 ## Installation
 1. Clone and download this repo
