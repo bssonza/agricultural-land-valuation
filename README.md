@@ -2,7 +2,7 @@
 Monte Carlo Simulator for Agricultural Land Valuation.
 
 ## Introduction
-Investing is a challenging endeavor. To excel in it, one needs to purchase an asset at a price lower than its intrinsic value. However, determining the intrinsic worth of an asset poses a significant question.
+Investing is a challenging endeavor. To excel in it, one needs to purchase an asset at a price lower than its intrinsic value. However, determining the intrinsic worth of an asset poses a significant challange.
 
 One method to assess an asset's value is through Discounted Cash Flow (DCF) analysis. This involves estimating the total cash that the investment will produce over its lifetime and then deducting the opportunity cost associated with forgoing other investments.
 
